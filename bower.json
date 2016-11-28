@@ -1,0 +1,6 @@
+{
+  "name": "cga_site",
+  "dependencies": {
+    "jquery": "~2.2.3"
+  }
+}
