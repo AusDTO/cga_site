@@ -1,6 +1,6 @@
 ---
 title: Who can use it
-layout: default
+layout: page
 ---
 
 <p class="abstract">cloud.gov.au is for agile teams building new applications using modern technology. It is not designed for moving legacy systems to the cloud.</p>

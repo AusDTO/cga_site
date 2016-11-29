@@ -25,8 +25,21 @@ gems:
   - jekyll-assets
   - jekyll-sitemap
 
-name: cga_site
+name: cloud.gov.au
 
 permalink: pretty
 
 url: # add site url
+
+global_navigation:
+  - Overview: '/overview/'
+  - Docs: 'http://docs.cloud.gov.au'
+  - Support: '/'
+  - Status: 'http://status.cloud.gov.au/'
+
+overview_navigation:
+  - Overview: '/overview/'
+  - What is cloud.gov.au: '/overview/what-is-cloud/'
+  - Why we built it: '/overview/why-we-built-it/'
+  - Who can use it: '/overview/who-can-use/'
+  - How to use it: '/overview/how-to-use-it/'

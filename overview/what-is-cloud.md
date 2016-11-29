@@ -1,6 +1,6 @@
 ---
 title: What is cloud.gov.au
-layout: default
+layout: page
 ---
 
 <p class="abstract">cloud.gov.au is a platform that allows government teams to deploy, manage and scale their applications in the cloud.</p>
