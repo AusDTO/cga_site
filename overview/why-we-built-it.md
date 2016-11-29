@@ -1,7 +1,9 @@
 ---
 title: Why we built it
-layout: default
+layout: page
 ---
+
+<p class="abstract">We believe digital teams should be able to host their applications without having to worry about the complexity of setting up and managing cloud infrastructure.</p>
 
 At the start of 2016 the Digital Transformation Agency had many digital teams starting new projects. Some of these new projects included government teams from outside the DTA which were part of the Exemplar program.
 

@@ -1,0 +1,17 @@
+<div id="nav" class="sidebar">
+  <nav class="local-nav" aria-label="main navigation">
+    <h2 class="visuallyhidden">Main navigation</h2>
+    <ul>
+      {% for item in site.overview_navigation %}
+        {% for i in item %}
+          <li>
+            <a href="{{ i[1] }}"
+            {% if i[1] == page.url %}class="is-current is-active"{% endif %}>
+            {{ i[0] }}
+            </a>
+          </li>
+        {% endfor %}
+      {% endfor %}
+    </ul>
+  </nav>
+</div>

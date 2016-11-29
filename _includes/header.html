@@ -1,25 +1,26 @@
 <header role="banner">
-  {% if loggedin == "true" %}
-    <section class="controls">
-      <div class="wrapper">
-        <a href="#" class="login">Logout</a>
-      </div>
-    </section>
-  {% endif %}
-  <section class="govau--header">
+  <section class="page-header">
     <div class="wrapper">
-      <div class="govau--logo">
-        <a href="#" class="logo">gov.au</a> <span class="badge--default">prototype</span>
+      <div class="page-header__logo">
+        <a href="/" class="logo">cloud.gov.au</a>
       </div>
       <div class="feedback">
-        <a href="#" class="button--feedback">Give feedback</a>
+        <a href="mailto:support@cloud.gov.au" class="button--feedback" role="button">Lodge support ticket</a>
       </div>
-    </div>
-  </section>
-  <section class="hero">
-    <div class="wrapper">
-      <a href="#" class="site-title">{{ page.agency }}</a>
-      <p class="tagline">{{ page.agencySub }}</p>
+      <div class="site-nav">
+        <nav class="site-nav__wrapper">
+          <ul>
+            {% for item in site.global_navigation %}
+              {% for i in item %}
+                <li>
+                  <a href="{{ i[1] }}"
+                  {% if page.url contains i[1] %}class="is-active"{% endif %}
+                  >{{ i[0] }}</a></li>
+              {% endfor %}
+            {% endfor %}
+          </ul>
+        </nav>
+      </div>
     </div>
   </section>
 </header>
