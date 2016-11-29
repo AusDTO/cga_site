@@ -14,7 +14,7 @@
               {% for i in item %}
                 <li>
                   <a href="{{ i[1] }}"
-                  {% if i[1] contains page.url %}class="is-active"{% endif %}
+                  {% if page.url contains i[1] %}class="is-active"{% endif %}
                   >{{ i[0] }}</a></li>
               {% endfor %}
             {% endfor %}
