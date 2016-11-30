@@ -33,7 +33,7 @@ url: # add site url
 
 global_navigation:
   - Overview: '/overview/'
-  - Docs: 'http://docs.cloud.gov.au'
+  - Documentation: 'http://docs.cloud.gov.au'
   - Support: '/'
   - Status: 'http://status.cloud.gov.au/'
 
@@ -43,3 +43,6 @@ overview_navigation:
   - Why we built it: '/overview/why-we-built-it/'
   - Who can use it: '/overview/who-can-use/'
   - How to use it: '/overview/how-to-use-it/'
+  - Pricing: '/overview/cost/'
+  - Security: '/overview/security/'
+  - Technology: '/overview/technology/'
