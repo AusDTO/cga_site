@@ -2,6 +2,24 @@
   <nav class="local-nav" aria-label="main navigation">
     <h2 class="visuallyhidden">Main navigation</h2>
     <ul>
+
+    {% if page.url contains '/support/' %}
+
+      {% for item in site.support_navigation %}
+        {% for i in item %}
+          <li>
+            <a href="{{ i[1] }}"
+            {% if i[1] == page.url %}class="is-current is-active"{% endif %}>
+            {{ i[0] }}
+            </a>
+          </li>
+        {% endfor %}
+      {% endfor %}
+
+    {% endif %}
+
+    {% if page.url contains '/overview/'%}
+
       {% for item in site.overview_navigation %}
         {% for i in item %}
           <li>
@@ -12,6 +30,10 @@
           </li>
         {% endfor %}
       {% endfor %}
+
+    {% endif %}
+
+
     </ul>
   </nav>
 </div>

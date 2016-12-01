@@ -24,6 +24,6 @@ The core of cloud.gov is a Platform as a Service (PaaS) built specifically for g
 
 cloud.gov.au runs on top of Amazon Web Services infrastructure in the Sydney region. It is IRAP certified and accredited by the Australian Signals Directorate up to Unclassified DLM, and is listed on the ASD Certified Cloud Services List (CCSL).
 
-Cloud Foundry allows many teams to securely interface with a single AWS instance(help me here - explain why we need CloudFoundry). This means the delivery team is responsible for their custom application code, and the cloud.gov.au platform takes care of the security and maintenance of everything underneath.
+Cloud Foundry is a tool that makes it much easier and secure for teams to interact with AWS. This means the delivery team is responsible for their custom application code, and the cloud.gov.au platform takes care of the security and maintenance of everything underneath.
 
 The cloud.gov.au team provides guidance to teams setup continuous deployment and continuious integration. We recommend using CircleCI and GitHub. Both of these services are not hosted in Australia and are not IRAP certified. You do not need to uses these tools to use cloud.gov.au.

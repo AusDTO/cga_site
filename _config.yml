@@ -34,7 +34,7 @@ url: # add site url
 global_navigation:
   - Overview: '/overview/'
   - Documentation: 'http://docs.cloud.gov.au'
-  - Support: '/'
+  - Support: '/support/'
   - Status: 'http://status.cloud.gov.au/'
 
 overview_navigation:
@@ -43,6 +43,13 @@ overview_navigation:
   - Why we built it: '/overview/why-we-built-it/'
   - Who can use it: '/overview/who-can-use/'
   - How to use it: '/overview/how-to-use-it/'
+  - Projects on cloud.gov.au: '/overview/projects/'
   - Pricing: '/overview/cost/'
   - Security: '/overview/security/'
   - Technology: '/overview/technology/'
+
+support_navigation:
+  - Overview: '/support/'
+  - Help: '/support/help/'
+  - Incident response: '/support/incident-response/'
+  - Post incident reports: '/support/incident-reports/'
