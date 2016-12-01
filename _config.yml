@@ -16,7 +16,7 @@ exclude:
   - circle.yml
   - Gemfile
   - Gemfile.lock
-  - README.md
+  - README/
   - vendor/
 
 ga_analytics: UA-XXXXXXXX-X
@@ -33,7 +33,7 @@ url: # add site url
 
 global_navigation:
   - Overview: '/overview/'
-  - Documentation: 'http://docs.cloud.gov.au'
+  - Documentation: '/docs/'
   - Support: '/support/'
   - Status: 'http://status.cloud.gov.au/'
 
@@ -53,3 +53,27 @@ support_navigation:
   - Help: '/support/help/'
   - Incident response: '/support/incident-response/'
   - Post incident reports: '/support/incident-reports/'
+
+docs_navigation:
+  - 'Getting started': 'menuHeader'
+  - 'Welcome': /docs/
+  - 'Join an existing project or start a new one': '/docs/getting_started/request_access/'
+  - 'Install command line tools': '/docs/getting_started/install_cli/'
+  - 'Login to CloudFoundry': '/docs/getting_started/login/'
+  - 'Get an app ready for launch': '/docs/getting_started/orca/'
+  - 'Deployment and configuration': 'menuHeader'
+  - 'Push an application': '/docs/deployment_configuration/application_deployment/'
+  - 'Delete an application': '/docs/deployment_configuration/application_delete/'
+  - 'Setup Continuous deployment': '/docs/deployment_configuration/ci_cd/'
+  - 'Setup CircleCI': '/docs/deployment_configuration/setup_circle/'
+  - 'Create manifest.yml': '/docs/deployment_configuration/create_manifest/'
+  - 'Environment variables': '/docs/deployment_configuration/environment/'
+  - 'Zero downtime deploys': '/docs/deployment_configuration/zero_downtime_deploys/'
+  - 'Deploying feature branches': '/docs/deployment_configuration/deploying_feature_branches/'
+  - 'User management': '/docs/deployment_configuration/user_management/'
+  - 'Services': 'menuHeader'
+  - 'Sending Emails': '/docs/services/sending_emails/'
+  - 'Log access': '/docs/services/log_access/'
+  - 'Support': 'menuHeader'
+  - 'Get help using cloud.gov.au': '/docs/support/help/'
+  - 'Reset CloudFoundry password': '/docs/support/reset_password/'
