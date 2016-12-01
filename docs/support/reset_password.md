@@ -1,4 +1,9 @@
-abstract: What to do if you’ve forgotten your password or need to change it.
+---
+title: Reset CloudFoundry password
+layout: page
+---
+
+<p class="abstract"> What to do if you’ve forgotten your password or need to change it.</p>
 
 ## How to change your password
 

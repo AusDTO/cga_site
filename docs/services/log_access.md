@@ -1,4 +1,9 @@
-abstract: How to access your applications’ log output.
+---
+title: Log access
+layout: page
+---
+
+<p class="abstract"> How to access your applications’ log output.</p>
 
 To see your application’s log output use:
 

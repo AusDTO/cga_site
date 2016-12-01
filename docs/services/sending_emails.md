@@ -1,4 +1,9 @@
-abstract: How to send emails using cloud.gov.au’s smtp service.
+---
+title: Sending emails
+layout: page
+---
+
+<p class="abstract"> How to send emails using cloud.gov.au’s smtp service.</p>
 
 cloud.gov.au has a resilient, highly available smtp service.
 
